@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DateTimePickerActivity" >
+
+    <TextView
+        android:id="@+id/DateTimePickerActivity_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DateTimePickerActivity_STitle" />
+
+    <DatePicker
+        android:id="@+id/DateTimePickerActivity_DatePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/DateTimePickerActivity_Title"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="21dp" />
+
+    <TimePicker
+        android:id="@+id/DateTimePickerActivity_TimePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/DateTimePickerActivity_DatePicker1"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/DateTimePickerActivity_Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/DateTimePickerActivity_TimePicker1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/DateTimePickerActivity_SButton1" />
+
+    <TextView
+        android:id="@+id/DateTimePickerActivity_TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DateTimePickerActivity_Button1"
+        android:layout_below="@+id/DateTimePickerActivity_Button1"
+        android:layout_marginTop="26dp"
+        android:text="@string/DateTimePickerActivity_STextView1" />
+
+    <TextView
+        android:id="@+id/DateTimePickerActivity_TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DateTimePickerActivity_TextView1"
+        android:layout_alignBottom="@+id/DateTimePickerActivity_TextView1"
+        android:layout_toRightOf="@+id/DateTimePickerActivity_TimePicker1"
+        android:text="@string/DateTimePickerActivity_STextView2" />
+
+</RelativeLayout>
