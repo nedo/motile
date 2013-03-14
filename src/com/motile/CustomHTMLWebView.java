@@ -19,8 +19,8 @@ public class CustomHTMLWebView extends Activity {
 						"<h1>RegistrationForm</h1>" +
 						"<form id='Register'><table cellpadding='2' cellspacing='0' border='0'> " +
 						"	<tr> <td width='130'>" +
-						"		<vllabel validators='UserID,UserIDExist' errclass='error' for='UserID' cerrclass='controlerror'>User ID:</vllabel>" +
-						"	 </td>" +" <td width='140'> <input name='UserID' type='text' class='control' id='UserID' size='15'>        " +
+						"		<vllabel validators='UserID,UserIDExist' errclass='error' for='UserID' cerrclass='controlerror'>User ID:</vllabel> </td>" +
+							"<td width='140'> <input name='UserID' type='text' class='control' id='UserID' size='15'>        " +
 						"<vlvalidator name='UserID' type='required' control='UserID' errmsg='User ID required'> " +
 						" <vlvalidator name='UserIDExist' type='custom' control='UserID' errmsg='User ID already exist' function='UserIDCheck'>      </td>" +
 						"<td width='300' rowspan='7' valign='top'><vlsummary class='error' headertext='Error(s) found:' displaymode='bulletlist'>      </td>    </tr>" +

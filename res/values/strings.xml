@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Motile</string>
-    <string name="MainActivity_STitle">Hello Motile!</string>
+    <string name="MainActivity_STitle">Hello Motile! \n a sample app for testing around Robotium.</string>
     <string name="MainActivity_SWebViewButton">Webview</string>
     <string name="MainActivity_SCustomHTMLButton">Custom HTML</string>
     <string name="MainActivity_SImageViewButton">"Image View"</string>

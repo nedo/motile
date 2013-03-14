@@ -112,14 +112,6 @@
          android:text="@string/MainActivity_SListView" />
 
      <Button
-         android:id="@+id/MainActivity_GridView"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_alignRight="@+id/MainActivity_CheckBox"
-         android:layout_alignTop="@+id/MainActivity_RatingBar"
-         android:text="@string/MainActivity_SGridView" />
-
-     <Button
          android:id="@+id/MainActivity_CalenderView"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
@@ -134,5 +126,13 @@
          android:layout_alignLeft="@+id/MainActivity_CalenderView"
          android:layout_below="@+id/MainActivity_CalenderView"
          android:text="@string/MainActivity_SDateTimePicker" />
+
+     <Button
+         android:id="@+id/MainActivity_GridView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/MainActivity_Tabs"
+         android:layout_alignLeft="@+id/MainActivity_CalenderView"
+         android:text="@string/MainActivity_SGridView" />
 
 </RelativeLayout>
