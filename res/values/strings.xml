@@ -64,7 +64,5 @@
     <string name="DateTimePickerActivity_SButton1">Get DateTime</string>
     <string name="DateTimePickerActivity_STextView1">Selected Date Time: </string>
     <string name="DateTimePickerActivity_STextView2">No Value</string>
-    
-
 
 </resources>

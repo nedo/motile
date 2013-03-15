@@ -39,8 +39,10 @@ public class CustomHTMLWebView extends Activity {
 						"<vlvalidator type='format' format='email' name='Email' control='Email' errmsg='Invalid E-mail'>      </td>    </tr>    <tr>      <td colspan=2>      " +
 						"<input name='Agreement' type='checkbox' id='Agreement' value='1'>" +
 						" <vllabel errclass='error' validators='Agreement' for='Agreement'>I agree with the terms of service</vllabel> " +
-						"<vlvalidator type='required' name='Agreement' control='Agreement' errmsg='Agreement checkbox must be selected'>      </td>    </tr>    <tr>      <td colspan='2'>  " +
-						" <input type='submit' class='control' value='Register'><input type='reset' class='control' value='Reset'>" +
+						"<vlvalidator type='required' name='Agreement' control='Agreement' errmsg='Agreement checkbox must be selected'>      </td>    </tr>" +
+						"<tr>      <td colspan='2'>  " +
+						"		 <input id='Register' type='submit' name='Register' class='control' value='Register'>" +
+						"<input id='Reset' type='reset' name='Reset' class='control' value='Reset'>" +
 						"</td>" +
 						"</tr>" +
 						"</table>" +

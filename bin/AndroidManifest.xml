@@ -98,6 +98,7 @@
             android:name="com.motile.DateTimePickerActivity"
             android:label="@string/DateTimePickerActivity_STitle" >
         </activity>
+
     </application>
 
 </manifest>
