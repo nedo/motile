@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalenderViewActivity" >
+
+    <TextView
+        android:id="@+id/CalenderViewActivity_Title"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CalenderViewActivity_STitle" />
+<!-- 
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CalenderViewActivity_Title"
+        android:layout_marginTop="20dp" />
+ -->
+</RelativeLayout>

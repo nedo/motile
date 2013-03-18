@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.motile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.motile.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.motile.WebViewActivity"
+            android:label="@string/WebVeiwActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.CustomHTMLWebView"
+            android:label="@string/CustomHTMLWebViewActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.ImageViewActivity"
+            android:label="@string/ImageViewActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.RadioButtonActivity"
+            android:label="@string/RadioButtonActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.CheckBoxActivity"
+            android:label="@string/CheckBoxActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.ToggleButtonActivity"
+            android:label="@string/ToggleButtonActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.SmallButtonActivity"
+            android:label="@string/SmallButtonActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.SpinnerActivity"
+            android:label="@string/SpinnerActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.SwitchActivity"
+            android:label="@string/SwitchActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.RatingBarActivity"
+            android:label="@string/RatingBarActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.TabsActivity"
+            android:label="@string/TabsActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.TabOneContentsActivity"
+            android:label="@string/TabOneContentsActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.TabTwoContentsActivity"
+            android:label="@string/TabTwoContentsActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.TabThreeContentsActivity"
+            android:label="@string/TabThreeContentsActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.motile.GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name="com.motile.CalenderViewActivity"
+            android:label="@string/CalenderViewActivity_STitle" >
+        </activity>
+        <activity
+            android:name="com.motile.DateTimePickerActivity"
+            android:label="@string/DateTimePickerActivity_STitle" >
+        </activity>
+
+    </application>
+
+</manifest>

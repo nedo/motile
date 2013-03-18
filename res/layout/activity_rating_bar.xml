@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingBarActivity" >
+
+    <TextView
+        android:id="@+Id/RatingBarActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RatingBarActivity_STitle" />
+
+    <RatingBar
+        android:id="@+id/RatingBarActivity_RatingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+Id/RatingBarActivity"
+        android:layout_marginTop="15dp" />
+    
+</RelativeLayout>
