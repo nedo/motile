@@ -13,7 +13,7 @@ public class WebViewActivity extends Activity {
 		setContentView(R.layout.activity_web_view);
 		
 		WebView webview = (WebView)findViewById(R.id.webView1);
-		webview.loadUrl("http://mail.google.com");
+		webview.loadUrl("http://www.rottentomatoes.com/mobile/");
 		webview.getSettings().setJavaScriptEnabled(true);
 		webview.getSettings().setBuiltInZoomControls(true);
 		webview.setWebViewClient(new WebViewClient());
